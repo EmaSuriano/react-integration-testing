@@ -1,5 +1,9 @@
 {
-  "name": "integration-test",
+  "name": "react-integration-testing",
+  "author": {
+    "name": "Emanuel Suriano",
+    "email": "emanuel.suriano@gmail.com"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {

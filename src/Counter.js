@@ -8,8 +8,6 @@ export const Counter = ({ count, addCount }) => (
 );
 
 // Counter Container
-const CounterContainer = connect(state => ({ count: state.count }), {
+export default connect(state => ({ count: state.count }), {
   addCount,
 })(Counter);
-
-export default CounterContainer;
